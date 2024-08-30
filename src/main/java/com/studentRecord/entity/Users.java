@@ -15,6 +15,15 @@ public class Users {
 	public String getRole() {
 		return role;
 	}
+	public Users(String username, String password, String email) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.email = email;
+	}
+	public Users() {
+		// TODO Auto-generated constructor stub
+	}
 	public void setRole(String role) {
 		this.role = role;
 	}

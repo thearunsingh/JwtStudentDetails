@@ -9,6 +9,7 @@ public interface StudentService {
 	
 	public Iterable<Student> getStudent();
 	public void addStudent(Student Student);
+	public Student getStudentById(int id);
 	
 	
 

@@ -1,5 +1,6 @@
 package com.studentRecord;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +8,14 @@ import org.springframework.boot.test.context.SpringBootTest;
 class StudentRecordApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void test()
+	{
+		int actual =12;
+		int expected = 12;
+		System.out.println();
+		
+		Assertions.assertEquals(expected, actual );
 	}
+	
 
 }

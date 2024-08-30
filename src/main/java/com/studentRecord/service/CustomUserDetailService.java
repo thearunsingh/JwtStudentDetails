@@ -26,5 +26,10 @@ public class CustomUserDetailService implements UserDetailsService{
 		}
 		return new CustomUserDetail(userName);
 	}
+	
+	public Users getUserByName(String name)
+	{
+		return userDao.findbyUserName(name);
+	}
 
 }
